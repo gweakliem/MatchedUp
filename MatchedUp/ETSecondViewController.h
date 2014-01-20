@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ETSecondViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIImageView *profilePictureImageView;
 
 @end

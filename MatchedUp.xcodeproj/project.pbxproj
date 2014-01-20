@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C13A572188B958900059687 /* ETTestUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C13A571188B958900059687 /* ETTestUser.m */; };
+		4C13A578188C2E3600059687 /* cat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4C13A575188C2E3600059687 /* cat.jpeg */; };
+		4C13A579188C2E3600059687 /* cat2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4C13A576188C2E3600059687 /* cat2.jpeg */; };
+		4C13A57A188C2E3600059687 /* cat3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C13A577188C2E3600059687 /* cat3.jpg */; };
+		4C52AE5D187D17EC004C6737 /* ETFBConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C52AE5C187D17EC004C6737 /* ETFBConstants.m */; };
+		4C52AE61187E70E6004C6737 /* ETHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C52AE60187E70E6004C6737 /* ETHomeViewController.m */; };
+		4C52AE65187E75BF004C6737 /* ETSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C52AE64187E75BF004C6737 /* ETSettingsViewController.m */; };
+		4C52AE69187E795C004C6737 /* ETEditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C52AE68187E795C004C6737 /* ETEditProfileViewController.m */; };
+		4C52AE6D1880E341004C6737 /* ETProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C52AE6C1880E341004C6737 /* ETProfileViewController.m */; };
 		4CF983661874C6BF00FCBDEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF983651874C6BF00FCBDEB /* Foundation.framework */; };
 		4CF983681874C6BF00FCBDEB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF983671874C6BF00FCBDEB /* CoreGraphics.framework */; };
 		4CF9836A1874C6BF00FCBDEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF983691874C6BF00FCBDEB /* UIKit.framework */; };
@@ -14,14 +23,14 @@
 		4CF983721874C6BF00FCBDEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF983711874C6BF00FCBDEB /* main.m */; };
 		4CF983761874C6BF00FCBDEB /* ETAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF983751874C6BF00FCBDEB /* ETAppDelegate.m */; };
 		4CF983791874C6BF00FCBDEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF983771874C6BF00FCBDEB /* Main.storyboard */; };
-		4CF9837C1874C6BF00FCBDEB /* ETFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF9837B1874C6BF00FCBDEB /* ETFirstViewController.m */; };
-		4CF9837F1874C6BF00FCBDEB /* ETSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF9837E1874C6BF00FCBDEB /* ETSecondViewController.m */; };
 		4CF983811874C6BF00FCBDEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF983801874C6BF00FCBDEB /* Images.xcassets */; };
 		4CF983881874C6BF00FCBDEB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF983871874C6BF00FCBDEB /* XCTest.framework */; };
 		4CF983891874C6BF00FCBDEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF983651874C6BF00FCBDEB /* Foundation.framework */; };
 		4CF9838A1874C6BF00FCBDEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF983691874C6BF00FCBDEB /* UIKit.framework */; };
 		4CF983921874C6BF00FCBDEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CF983901874C6BF00FCBDEB /* InfoPlist.strings */; };
 		4CF983941874C6BF00FCBDEB /* MatchedUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF983931874C6BF00FCBDEB /* MatchedUpTests.m */; };
+		4CF9839F1874C76600FCBDEB /* ETLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF9839E1874C76600FCBDEB /* ETLoginViewController.m */; };
+		53B0E8D79FA145DE9EA34581 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C29857DCA713471B8B71A948 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C13A570188B958900059687 /* ETTestUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTestUser.h; sourceTree = "<group>"; };
+		4C13A571188B958900059687 /* ETTestUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTestUser.m; sourceTree = "<group>"; };
+		4C13A575188C2E3600059687 /* cat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpeg; sourceTree = "<group>"; };
+		4C13A576188C2E3600059687 /* cat2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat2.jpeg; sourceTree = "<group>"; };
+		4C13A577188C2E3600059687 /* cat3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat3.jpg; sourceTree = "<group>"; };
+		4C52AE5B187D17EC004C6737 /* ETFBConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETFBConstants.h; sourceTree = "<group>"; };
+		4C52AE5C187D17EC004C6737 /* ETFBConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETFBConstants.m; sourceTree = "<group>"; };
+		4C52AE5F187E70E6004C6737 /* ETHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETHomeViewController.h; sourceTree = "<group>"; };
+		4C52AE60187E70E6004C6737 /* ETHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETHomeViewController.m; sourceTree = "<group>"; };
+		4C52AE63187E75BF004C6737 /* ETSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETSettingsViewController.h; sourceTree = "<group>"; };
+		4C52AE64187E75BF004C6737 /* ETSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETSettingsViewController.m; sourceTree = "<group>"; };
+		4C52AE67187E795C004C6737 /* ETEditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETEditProfileViewController.h; sourceTree = "<group>"; };
+		4C52AE68187E795C004C6737 /* ETEditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETEditProfileViewController.m; sourceTree = "<group>"; };
+		4C52AE6B1880E341004C6737 /* ETProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETProfileViewController.h; sourceTree = "<group>"; };
+		4C52AE6C1880E341004C6737 /* ETProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETProfileViewController.m; sourceTree = "<group>"; };
 		4CF983621874C6BF00FCBDEB /* MatchedUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchedUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF983651874C6BF00FCBDEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4CF983671874C6BF00FCBDEB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,16 +70,16 @@
 		4CF983741874C6BF00FCBDEB /* ETAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETAppDelegate.h; sourceTree = "<group>"; };
 		4CF983751874C6BF00FCBDEB /* ETAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETAppDelegate.m; sourceTree = "<group>"; };
 		4CF983781874C6BF00FCBDEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4CF9837A1874C6BF00FCBDEB /* ETFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETFirstViewController.h; sourceTree = "<group>"; };
-		4CF9837B1874C6BF00FCBDEB /* ETFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETFirstViewController.m; sourceTree = "<group>"; };
-		4CF9837D1874C6BF00FCBDEB /* ETSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETSecondViewController.h; sourceTree = "<group>"; };
-		4CF9837E1874C6BF00FCBDEB /* ETSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETSecondViewController.m; sourceTree = "<group>"; };
 		4CF983801874C6BF00FCBDEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4CF983861874C6BF00FCBDEB /* MatchedUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchedUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF983871874C6BF00FCBDEB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4CF9838F1874C6BF00FCBDEB /* MatchedUpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatchedUpTests-Info.plist"; sourceTree = "<group>"; };
 		4CF983911874C6BF00FCBDEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4CF983931874C6BF00FCBDEB /* MatchedUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchedUpTests.m; sourceTree = "<group>"; };
+		4CF9839D1874C76600FCBDEB /* ETLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETLoginViewController.h; sourceTree = "<group>"; };
+		4CF9839E1874C76600FCBDEB /* ETLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETLoginViewController.m; sourceTree = "<group>"; };
+		6B1299C3A5464D97ADAE2D9A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		C29857DCA713471B8B71A948 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +90,7 @@
 				4CF983681874C6BF00FCBDEB /* CoreGraphics.framework in Frameworks */,
 				4CF9836A1874C6BF00FCBDEB /* UIKit.framework in Frameworks */,
 				4CF983661874C6BF00FCBDEB /* Foundation.framework in Frameworks */,
+				53B0E8D79FA145DE9EA34581 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +107,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C13A573188C2D5500059687 /* CreateParseUser */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CreateParseUser;
+			sourceTree = "<group>";
+		};
+		4C13A574188C2DEE00059687 /* Create  Test User */ = {
+			isa = PBXGroup;
+			children = (
+				4C13A575188C2E3600059687 /* cat.jpeg */,
+				4C13A576188C2E3600059687 /* cat2.jpeg */,
+				4C13A577188C2E3600059687 /* cat3.jpg */,
+				4C13A570188B958900059687 /* ETTestUser.h */,
+				4C13A571188B958900059687 /* ETTestUser.m */,
+			);
+			name = "Create  Test User";
+			sourceTree = "<group>";
+		};
+		4C52AE5E187E70B6004C6737 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4C52AE5F187E70E6004C6737 /* ETHomeViewController.h */,
+				4C52AE60187E70E6004C6737 /* ETHomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		4C52AE62187E75AB004C6737 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4C52AE63187E75BF004C6737 /* ETSettingsViewController.h */,
+				4C52AE64187E75BF004C6737 /* ETSettingsViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		4C52AE66187E7944004C6737 /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				4C52AE67187E795C004C6737 /* ETEditProfileViewController.h */,
+				4C52AE68187E795C004C6737 /* ETEditProfileViewController.m */,
+			);
+			name = EditProfile;
+			sourceTree = "<group>";
+		};
+		4C52AE6A1880E324004C6737 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				4C52AE6B1880E341004C6737 /* ETProfileViewController.h */,
+				4C52AE6C1880E341004C6737 /* ETProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
 		4CF983591874C6BF00FCBDEB = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +169,7 @@
 				4CF9838D1874C6BF00FCBDEB /* MatchedUpTests */,
 				4CF983641874C6BF00FCBDEB /* Frameworks */,
 				4CF983631874C6BF00FCBDEB /* Products */,
+				6B1299C3A5464D97ADAE2D9A /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +189,7 @@
 				4CF983671874C6BF00FCBDEB /* CoreGraphics.framework */,
 				4CF983691874C6BF00FCBDEB /* UIKit.framework */,
 				4CF983871874C6BF00FCBDEB /* XCTest.framework */,
+				C29857DCA713471B8B71A948 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,13 +197,15 @@
 		4CF9836B1874C6BF00FCBDEB /* MatchedUp */ = {
 			isa = PBXGroup;
 			children = (
+				4C52AE5E187E70B6004C6737 /* Home */,
+				4C52AE6A1880E324004C6737 /* Profile */,
+				4C52AE66187E7944004C6737 /* EditProfile */,
+				4C52AE62187E75AB004C6737 /* Settings */,
+				4CF983A11874C78200FCBDEB /* Login */,
 				4CF983741874C6BF00FCBDEB /* ETAppDelegate.h */,
 				4CF983751874C6BF00FCBDEB /* ETAppDelegate.m */,
 				4CF983771874C6BF00FCBDEB /* Main.storyboard */,
-				4CF9837A1874C6BF00FCBDEB /* ETFirstViewController.h */,
-				4CF9837B1874C6BF00FCBDEB /* ETFirstViewController.m */,
-				4CF9837D1874C6BF00FCBDEB /* ETSecondViewController.h */,
-				4CF9837E1874C6BF00FCBDEB /* ETSecondViewController.m */,
+				4C13A574188C2DEE00059687 /* Create  Test User */,
 				4CF983801874C6BF00FCBDEB /* Images.xcassets */,
 				4CF9836C1874C6BF00FCBDEB /* Supporting Files */,
 			);
@@ -135,6 +219,8 @@
 				4CF9836E1874C6BF00FCBDEB /* InfoPlist.strings */,
 				4CF983711874C6BF00FCBDEB /* main.m */,
 				4CF983731874C6BF00FCBDEB /* MatchedUp-Prefix.pch */,
+				4C52AE5B187D17EC004C6737 /* ETFBConstants.h */,
+				4C52AE5C187D17EC004C6737 /* ETFBConstants.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -157,6 +243,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4CF983A11874C78200FCBDEB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4CF9839D1874C76600FCBDEB /* ETLoginViewController.h */,
+				4CF9839E1874C76600FCBDEB /* ETLoginViewController.m */,
+				4C13A573188C2D5500059687 /* CreateParseUser */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CF983971874C6BF00FCBDEB /* Build configuration list for PBXNativeTarget "MatchedUp" */;
 			buildPhases = (
+				557DFA35C31B450CB621668E /* Check Pods Manifest.lock */,
 				4CF9835E1874C6BF00FCBDEB /* Sources */,
 				4CF9835F1874C6BF00FCBDEB /* Frameworks */,
 				4CF983601874C6BF00FCBDEB /* Resources */,
+				1DF5B81465174190983DD855 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,8 +332,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C13A579188C2E3600059687 /* cat2.jpeg in Resources */,
+				4C13A578188C2E3600059687 /* cat.jpeg in Resources */,
 				4CF983811874C6BF00FCBDEB /* Images.xcassets in Resources */,
 				4CF983701874C6BF00FCBDEB /* InfoPlist.strings in Resources */,
+				4C13A57A188C2E3600059687 /* cat3.jpg in Resources */,
 				4CF983791874C6BF00FCBDEB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,15 +351,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DF5B81465174190983DD855 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		557DFA35C31B450CB621668E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4CF9835E1874C6BF00FCBDEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CF9837C1874C6BF00FCBDEB /* ETFirstViewController.m in Sources */,
+				4C52AE61187E70E6004C6737 /* ETHomeViewController.m in Sources */,
+				4C52AE5D187D17EC004C6737 /* ETFBConstants.m in Sources */,
+				4C52AE69187E795C004C6737 /* ETEditProfileViewController.m in Sources */,
+				4C52AE65187E75BF004C6737 /* ETSettingsViewController.m in Sources */,
 				4CF983721874C6BF00FCBDEB /* main.m in Sources */,
+				4C13A572188B958900059687 /* ETTestUser.m in Sources */,
+				4C52AE6D1880E341004C6737 /* ETProfileViewController.m in Sources */,
 				4CF983761874C6BF00FCBDEB /* ETAppDelegate.m in Sources */,
-				4CF9837F1874C6BF00FCBDEB /* ETSecondViewController.m in Sources */,
+				4CF9839F1874C76600FCBDEB /* ETLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +521,7 @@
 		};
 		4CF983981874C6BF00FCBDEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B1299C3A5464D97ADAE2D9A /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -395,6 +535,7 @@
 		};
 		4CF983991874C6BF00FCBDEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B1299C3A5464D97ADAE2D9A /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -467,6 +608,7 @@
 				4CF983991874C6BF00FCBDEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CF9839A1874C6BF00FCBDEB /* Build configuration list for PBXNativeTarget "MatchedUpTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +617,7 @@
 				4CF9839C1874C6BF00FCBDEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
