@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ETProfileViewController : UIViewController
+@protocol ETProfileViewControllerDelegate <NSObject>
+-(void)didPressLike;
+-(void)didPressDislike;
+@end
 
+@interface ETProfileViewController : UIViewController
 @property (strong, nonatomic) PFObject *photo;
+@property (weak, nonatomic) id <ETProfileViewControllerDelegate> delegate;
 @end

@@ -15,4 +15,8 @@
     #import <Foundation/Foundation.h>
     #import <Parse/Parse.h>
 #import "ETFBConstants.h"
+#import <Mixpanel.h>
+#define MIXPANEL_TOKEN @"MIXPANEL_TOKEN_HERE"
+
+
 #endif

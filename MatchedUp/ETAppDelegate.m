@@ -18,13 +18,21 @@
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     
     [PFFacebookUtils initializeFacebook];
+    
+    NSString* defaultPrefsFile = [[NSBundle mainBundle] pathForResource:@"defaultPrefsFile" ofType:@"plist"];
+    NSDictionary* defaultPreferences = [NSDictionary dictionaryWithContentsOfFile:defaultPrefsFile];
+    [[NSUserDefaults standardUserDefaults] registerDefaults:defaultPreferences];
+    
+    [[UINavigationBar appearance] setBarTintColor:[UIColor whiteColor]];
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor colorWithRed:12/255.0 green:158/255.0 blue:255/255.0 alpha:1.0], NSFontAttributeName : [UIFont fontWithName:@"HelveticaNeue-Light" size:20.0]}];
+
+    [Mixpanel sharedInstanceWithToken:MIXPANEL_TOKEN];
     return YES;
 }
 
 -(BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
 {
-    return [PFFacebookUtils handleOpenURL:url];
-    //return [FBAppCall handleOpenURL:url sourceApplication:@""];
+    return [FBAppCall handleOpenURL:url sourceApplication:sourceApplication withSession:[PFFacebookUtils session]];
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

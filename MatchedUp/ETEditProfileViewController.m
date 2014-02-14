@@ -8,12 +8,9 @@
 
 #import "ETEditProfileViewController.h"
 
-@interface ETEditProfileViewController ()
+@interface ETEditProfileViewController () <UITextViewDelegate>
 @property (strong, nonatomic) IBOutlet UITextView *tagLineTextView;
 @property (strong, nonatomic) IBOutlet UIImageView *profilePictureImageView;
-@property (strong, nonatomic) IBOutlet UIBarButtonItem *saveButton;
-- (IBAction)saveButtonBarItemPressed:(UIBarButtonItem *)sender;
-
 @end
 
 @implementation ETEditProfileViewController
@@ -30,8 +27,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
     
+    self.tagLineTextView.delegate = self;
+    
+    self.view.backgroundColor = [UIColor colorWithRed:242/255.0 green:242/255.0 blue:242/255.0 alpha:1.0];
+	 
     PFQuery *query = [PFQuery queryWithClassName:kCCPhotoClassKey];
     [query whereKey:kCCPhotoUserKey equalTo:[PFUser currentUser]];
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
@@ -52,10 +52,15 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)saveButtonBarItemPressed:(UIBarButtonItem *)sender
+-(BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
 {
-    [[PFUser currentUser] setObject:self.tagLineTextView.text forKey:kCCUserTagLineKey];
-    [[PFUser currentUser] saveInBackground];
-    [self.navigationController popViewControllerAnimated:YES];
+    if ([text isEqualToString:@"\n"]) {
+        [self.tagLineTextView resignFirstResponder];
+        [[PFUser currentUser] setObject:self.tagLineTextView.text forKey:kCCUserTagLineKey];
+        [[PFUser currentUser] saveInBackground];
+        [self.navigationController popViewControllerAnimated:YES];
+        return NO;
+    }
+    return YES;
 }
 @end
